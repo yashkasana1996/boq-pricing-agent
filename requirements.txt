@@ -1,0 +1,15 @@
+# core pipeline (CLI, extraction, pricing, write-back)
+openpyxl>=3.1
+pypdf>=4.0            # PDF quotation reading
+olefile>=0.47         # Outlook .msg attachment extraction (direct OLE read)
+
+# optional: LLM assist for unparsed sheets / leftover matching
+anthropic>=0.40
+
+# optional: web UI
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+
+# dev/test
+pytest>=8.0

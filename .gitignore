@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+uploads/
+knowledge/
+examples/demo-tender/
+.env
